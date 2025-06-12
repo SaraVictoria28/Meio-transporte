@@ -11,9 +11,17 @@ namespace Exercicio_heranca
             Distancia = distacia;
         }
 
-        public double Gasto()
+        public virtual double Gasto()
         {
             return Distancia / Consumo * Gasolina;
+        }
+        public override double Tempo()
+        {
+            return base.Tempo();
+        }
+        public virtual string ToString()
+        {
+            return $"O tempo de duração em média vai ser de {Tempo()}m, gastando R${Gasto()} ";
         }
     }
 }

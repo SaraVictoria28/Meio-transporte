@@ -12,10 +12,18 @@ namespace Exercicio_heranca
             Distancia = distancia;
         }
 
-        public double Cobrador()
+        public virtual double Gasto()
         {
             return Tarifa * Passagem;
         }
+        public override double Tempo()
+        {
+            return base.Tempo();
+        }
 
+         public virtual string ToString()
+        {
+            return $"O tempo de duração em média vai ser de {Tempo()}m, gastando R${Gasto()} ";
+        }
     }
 }

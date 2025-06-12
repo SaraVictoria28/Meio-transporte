@@ -10,7 +10,7 @@ namespace MyApp
         static void Main(string[] args)
         {
             Console.WriteLine("Qual seu meio de transporte: \n Carro - 1 \n Ônibus: - 2 ");
-            int opcao =  int.Parse(Console.ReadLine());
+            int opcao = int.Parse(Console.ReadLine());
 
             double gasolina = 0;
             double consumo = 0;
@@ -35,6 +35,8 @@ namespace MyApp
             }
             Carro carro = new Carro(gasolina, consumo);
             Onibus onibus = new Onibus(tarifa, passagem);
+            
+            
         }
     }
 }

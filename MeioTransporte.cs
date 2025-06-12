@@ -10,7 +10,8 @@ namespace Exercicio_heranca
             Velocidade = velocidade;
             Distancia = distacia;
         }
-        public override double Tempo()
+
+        public virtual double Tempo()
         {
             double tempo = Distancia / Velocidade;
             return tempo * 60;
