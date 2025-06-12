@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_heranca", "Exercicio_heranca.csproj", "{0D985397-3842-1306-4255-963E1214C84D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D985397-3842-1306-4255-963E1214C84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D985397-3842-1306-4255-963E1214C84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D985397-3842-1306-4255-963E1214C84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D985397-3842-1306-4255-963E1214C84D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBCF6A09-8548-4123-B62B-96BF674B86CD}
+	EndGlobalSection
+EndGlobal
